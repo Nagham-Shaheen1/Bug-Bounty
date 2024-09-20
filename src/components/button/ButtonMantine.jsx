@@ -10,7 +10,8 @@ const ButtonMantine = ({ type, color, title, width, height }) => {
                 style={{
                     height: height,
                     width: width,
-                    borderRadius: '8px'
+                    borderRadius: '8px',
+                    padding:'10px',
                 }}
             >
                 {title}

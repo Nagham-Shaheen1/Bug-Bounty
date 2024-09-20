@@ -1,7 +1,7 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
-import Header from './components/header'
-import Footer from './components/footer'
+import Header from './components/const/Header'
+import Footer from './components/const/Footer'
 import './assets/css/root/root.css'
 
 const Root = () => {
